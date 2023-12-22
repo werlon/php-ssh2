@@ -1,0 +1,20 @@
+{
+    "name": "werlon/php-ssh2",
+    "description": "Gerenciador SSH usando biblioteca php_ssh2",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Werlon Guilherme Borges da Silva",
+            "email": "werlong@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WerlonGuilherme\\PHPSSH2\\":"src/"
+        }
+    },
+    "require": {
+        "php":">=7.3"
+    }
+}
