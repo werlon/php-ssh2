@@ -1,13 +1,13 @@
-#PHP SSH2
+# PHP SSH2
 
 Conecta via SSH pelo PHP utilizando a lib PHP_SSH2
 
-#COMO INSTALAR
+# COMO INSTALAR
 ```shell
-composer install werlon/php-ssh2
+composer require werlon/php-ssh2
 ```
 
-#COMO USAR
+# COMO USAR
 
 Segue codigo exemplo utilizando a classe
 ```php
@@ -59,8 +59,11 @@ echo "Desconectado \n";
 ## Requisitos
 
 PHP 7.3 ou superior
+
 Baixar ou instalar a biblioteca php_ssh2 em sua pasta de extensões do PHP
 [SSH2 PHP](https://pecl.php.net/package/ssh2) 
 
 DLL para windows
 [SSH2 PHP DLL](https://pecl.php.net/package/ssh2/1.3.1/windows)
+
+Ativar a extensão no php.ini
